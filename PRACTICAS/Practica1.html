@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src='Javascript.js'></script>
+        <title>Hola Mundo</title>
+    </head>
+    <body>
+        <p id = 'p1'> Hola, Como estas </p>
+        <p id = 'p2'></p>
+        <p id = 'p3'></p>
+        <input type="text" placeholder="Escribe tu nombre..." id = "inputNombre">
+        <div id= "tipo">
+            <input type="radio" id = "r1" name="escuela" value="Estudiante" checked> Estudiante
+            <input type="radio" id = "r2" name="escuela" value="Maestro"> Maestro
+        </div>
+        <div id ="Materias">
+            <input type="checkbox" id = "m1" name="Materia" value="moviles" checked> Dispositivos moviles
+            <input type="checkbox" id = "m2" name="Materia" value="artificial"> Inteligencia artificial
+            <input type="checkbox" id = "m3" name="Materia" value="redes"> Redes y telecomunicaciones
+            <input type="checkbox" id = "m4" name="Materia" value="integracion"> Integracion de Hardware y software
+            <input type="checkbox" id = "m5" name="Materia" value="cultura"> Cultura emprendedora
+        </div>
+        <button type="button" onclick="saludos(document.getElementById('inputNombre').value)">Pulsame</button>
+    </body>
+</html>

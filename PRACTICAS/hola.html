@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src='Javasscript.js'></script>
+        <title>Hola Mundo</title>
+    </head>
+    <body>
+        <p id = 'p1'> Hola, Como estas </p>
+        <p id = 'p2'></p>
+        <input type="text" placeholder="Escribe tu nombre..." id = "inputNombre">
+        <div id= "tipo">
+            <input type="radio" id = "r1" name="escuela" value="Estudiante" checked> Estudiante
+            <input type="radio" id = "r2" name="escuela" value="Maestro"> maestro
+        </div>
+        <button type="button" onclick="saludos(document.getElementById('inputNombre').value)">Pulsame</button>
+    </body>
+</html>
